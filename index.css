@@ -5,3 +5,12 @@
 .quarto-title > h1.title {
   opacity: 0 !important;
 }
+
+.btn-landing {
+  padding: 10px 10px;
+  font-size: 60px;
+  border-radius: 30px;
+  margin: 1px;
+  width: 20%; /* keep consistent across devices */
+  height: 152px;
+}

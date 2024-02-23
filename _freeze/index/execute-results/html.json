@@ -1,0 +1,14 @@
+{
+  "hash": "f384781ad52021abf885b00f54ccb4ae",
+  "result": {
+    "markdown": "---\ntitle: \"Statistics for Psychologists\"\npage-layout: full\nanchor-sections: false\nimage: \"Images/icon.png\"\ncss: index.css\nfilters: [remove_title.lua]\nsidebar: false\n---\n\n\n![](Images/LUPsychology.svg){fig-alt=\"University Logo\" fig-align=\"center\"}\n\n::: callout-warning\n**This website is under construction.**\n:::\n\n\n::: {.cell}\n\n:::\n\n\n::: {.div style=\"font-size:2em;\"}\nWelcome\n:::\n\nWelcome to Lancaster University's Department of Psychology **2023/2024** modules on Statistics for Psychologists. In the sidebar, you will find a complete list of all the statistics modules that are currently offered. This is your one-stop shop for all the lab materials you need for working with R and statistics.\n\n\n```{=html}\n\n<div class=\"text-center\" role=\"toolbar\" aria-label=\"Buttons\">\n    <button type=\"button\" class=\"btn btn-primary btn-landing\">Year 1</button>\n    <button type=\"button\" class=\"btn btn-primary btn-landing\">Year 2</button>\n    <button type=\"button\" class=\"btn btn-primary btn-landing\">MSc</button>\n    <button type=\"button\" class=\"btn btn-primary btn-landing\">Help!</button>\n</div>\n\n```\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
