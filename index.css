@@ -7,10 +7,20 @@
 }
 
 .btn-landing {
-  padding: 10px 10px;
-  font-size: 60px;
-  border-radius: 30px;
+  padding: 1rem 1rem;
+  font-size: 3rem;
+  border-radius: 2rem;
   margin: 1px;
-  width: 20%; /* keep consistent across devices */
-  height: 152px;
+}
+
+.accordion-custom {
+  width: 50vw; /* keep consistent across devices */
+}
+
+.accordion-btn-custom {
+  background-color: #b20f11;
+  display:block;
+  font-size: 1.5rem;
+  color: #fff;
+  
 }
