@@ -7,20 +7,25 @@
 }
 
 .btn-landing {
-  padding: 1rem 1rem;
-  font-size: 3rem;
-  border-radius: 2rem;
-  margin: 1px;
+  background-color: #b20f11;
+  border-color: #b20f11;
+  font-size: 5vw;
+  border-radius: 5vw;
+  margin: 5px;
+  width:100%
 }
 
-.accordion-custom {
-  width: 50vw; /* keep consistent across devices */
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .accordion-button:hover, .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #780b0c
 }
+
 
 .accordion-btn-custom {
   background-color: #b20f11;
   display:block;
-  font-size: 1.5rem;
+  font-size: 2.5vw;
   color: #fff;
   
 }
+

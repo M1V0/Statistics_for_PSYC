@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Statistics for Psychologists - 7.Filtering data and testing means (one-sample t-test)</title>
+<title>Statistics for Psychologists - 22/23 Archive</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,19 +131,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lectures" id="toc-lectures" class="nav-link active" data-scroll-target="#lectures">Lectures</a>
+  <li><a href="#poc" id="toc-poc" class="nav-link active" data-scroll-target="#poc">POC</a>
   <ul class="collapse">
-  <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading">Reading</a></li>
+  <li><a href="#this-content-shows-if-it-is-morning" id="toc-this-content-shows-if-it-is-morning" class="nav-link" data-scroll-target="#this-content-shows-if-it-is-morning">This content shows if it is morning</a></li>
+  <li><a href="#this-shows-if-it-is-afternoon" id="toc-this-shows-if-it-is-afternoon" class="nav-link" data-scroll-target="#this-shows-if-it-is-afternoon">This shows if it is afternoon</a></li>
   </ul></li>
-  <li><a href="#pre-lab-work" id="toc-pre-lab-work" class="nav-link" data-scroll-target="#pre-lab-work">Pre-lab work</a></li>
-  <li><a href="#rstudio-tasks" id="toc-rstudio-tasks" class="nav-link" data-scroll-target="#rstudio-tasks">RStudio tasks</a>
-  <ul class="collapse">
-  <li><a href="#plotting-and-filtering" id="toc-plotting-and-filtering" class="nav-link" data-scroll-target="#plotting-and-filtering">Plotting and filtering</a></li>
-  <li><a href="#one-sample-t-test" id="toc-one-sample-t-test" class="nav-link" data-scroll-target="#one-sample-t-test">One-sample t-test</a></li>
-  <li><a href="#practising-filtering" id="toc-practising-filtering" class="nav-link" data-scroll-target="#practising-filtering">Practising filtering</a></li>
-  <li><a href="#sample-size-size-of-effect-and-the-one-sample-t-test" id="toc-sample-size-size-of-effect-and-the-one-sample-t-test" class="nav-link" data-scroll-target="#sample-size-size-of-effect-and-the-one-sample-t-test">Sample size, size of effect, and the one sample t-test</a></li>
-  <li><a href="#week-7-quiz" id="toc-week-7-quiz" class="nav-link" data-scroll-target="#week-7-quiz">Week 7 Quiz</a></li>
-  </ul></li>
+  <li><a href="#here-i-test-panoptos-embed-option" id="toc-here-i-test-panoptos-embed-option" class="nav-link" data-scroll-target="#here-i-test-panoptos-embed-option">Here I test Panopto’s embed option</a></li>
+  <li><a href="#testing-embedded-presentation" id="toc-testing-embedded-presentation" class="nav-link" data-scroll-target="#testing-embedded-presentation">Testing embedded presentation</a></li>
   </ul>
 </nav>
     </div>
@@ -152,8 +146,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">7.Filtering data and testing means (one-sample t-test)</h1>
-<p class="subtitle lead">Written by Tom Beesley &amp; John Towse</p>
+<h1 class="title">22/23 Archive</h1>
 </div>
 
 
@@ -168,93 +161,31 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="lectures" class="level1">
-<h1>Lectures</h1>
-<p>Watch Lecture <a href="https://modules.lancaster.ac.uk/mod/panopto/view.php?id=2016910">Part 1</a></p>
-<p>Watch Lecture <a href="https://modules.lancaster.ac.uk/mod/panopto/view.php?id=2016911">Part 2</a></p>
-<p>Watch Lecture <a href="https://modules.lancaster.ac.uk/mod/panopto/view.php?id=2016912">Part 3</a></p>
-<p>Watch Lecture <a href="https://modules.lancaster.ac.uk/mod/panopto/view.php?id=2016913">Part 4</a></p>
-<p>Download the lecture slides <a href="data/Week_7/PSYC121 Week 7.pptx">here</a></p>
-<section id="reading" class="level2">
-<h2 class="anchored" data-anchor-id="reading">Reading</h2>
-<p><a href="https://modules.lancaster.ac.uk/mod/url/view.php?id=2017198">Chapter 12</a> of Howell</p>
-<p>Today we will look in a bit more detail at people’s estimates of the average UK salary. We will first plot this data using <code>geom_histogram()</code> and also <code>geom_boxplot()</code>. When we do this, we’ll see that there are some unusual values, and we’ll need to do a bit of <strong>data wrangling</strong> to remove them, using the <code>filter()</code> command. We’ll then turn to the conceptual ideas of the lecture - how can we tell if the mean of our sample is unusual, or whether we would actually expect this mean value under the null hypothesis? Finally, we’ll continue to develop our skills in <strong>data visualisation</strong> by exploring <code>geom_density()</code> plots.</p>
+<section id="poc" class="level1">
+<h1>POC</h1>
+<p>This is a proof of concept that we can hide/autoshow information. It is a bit clunky and requires some javascript functions, but theoretically only requires updating once a year and then a simple copy-paste of information.</p>
+<section id="this-content-shows-if-it-is-morning" class="level2">
+<h2 class="anchored" data-anchor-id="this-content-shows-if-it-is-morning">This content shows if it is morning</h2>
+<div class="open_wk1">Success! It is morning!</div>
+<div class="closed_wk1">This is hidden!</div>
+<br>
+</section>
+<section id="this-shows-if-it-is-afternoon" class="level2">
+<h2 class="anchored" data-anchor-id="this-shows-if-it-is-afternoon">This shows if it is afternoon</h2>
+<div class="open_wk2">Success! It is afternoon!</div>
+<div class="closed_wk2">This is hidden!</div>
 </section>
 </section>
-<section id="pre-lab-work" class="level1">
-<h1>Pre-lab work</h1>
-<ul>
-<li><p>There is an <a href="https://ma-rconnect.lancs.ac.uk/PSYC121_Week_7_labprep/" target="_blank">online tutorial</a>. Please make every attempt to complete this before the lab!</p></li>
-<li><p>Create a folder for Week 7</p></li>
-<li><p>Download the <a href="data/Week_7/Week_7.zip">Week_7.zip</a> and upload it into this new folder in RStudio Server.</p></li>
-</ul>
+<section id="here-i-test-panoptos-embed-option" class="level1">
+<h1>Here I test Panopto’s embed option</h1>
+<iframe src="https://dtu-panopto.lancs.ac.uk/Panopto/Pages/Embed.aspx?id=41497607-03c1-4e97-84f1-ae5a00fcc8f9&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;captions=false&amp;start=0&amp;interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
 </section>
-<section id="rstudio-tasks" class="level1">
-<h1>RStudio tasks</h1>
-<section id="plotting-and-filtering" class="level3">
-<h3 class="anchored" data-anchor-id="plotting-and-filtering">Plotting and filtering</h3>
-<ol type="1">
-<li><p>Open the Week_7_script and run the <code>library</code>, <code>options</code> commands. The <code>options</code> command is new. It is very cryptic and you don’t need to worry too much about this - it is making sure that the values in the graphs are displayed as regular numbers and not as scientific notation. Add a <code>read_csv()</code> command to get the data - you’ve done this every week, so this should be familiar.</p></li>
-<li><p>Complete the <code>geom_histogram()</code> code to plot the distribution of salary data. Try setting <code>bins=20</code> within your <code>geom_histogram()</code> code. Play around with the number of bins for the histogram.</p></li>
-<li><p>OK - we’ve got some pretty funky values here! Some people think the average salary is over £400,000!!! Well, maybe they just added too many zeros (let’s give them the benefit of the doubt). Quite often when we get our “raw” data, it contains weird values like this that we need to consider removing. Let’s run the <code>arrange()</code> code now to see what exactly those high values are.</p></li>
-<li><p>We’ll need to remove these high values to get a better sense of the distribution. Let’s use a <code>filter()</code> command to do this. We need to make a decision about what values to exclude. In later labs we’ll look at a more systematic process of removing <em>outliers</em>, but for now, let’s just remove any that are over £200,000. Edit the <code>filter()</code> command to keep only those estimates that are <em>below</em> £200,000 (&lt;). Remember that the filter command <em>keeps</em> the data that is <em>TRUE</em> according to the expression.</p></li>
-<li><p>STOP! OK, <strong>this next bit is very important</strong>. If you completed that last step correctly you’ll see an output in the console showing a “tibble” (a data frame) which has 194 rows and 5 columns. However, your object has not actually changed in the environment. This will still be showing as 197 observations (row). So the filter command will take out those large estimations, but we haven’t actually changed the data object. To do this we need to assign (<code>&lt;-</code>)the result of our filter command to the object. To do this, you need to put in some code at the start of this small chunk of code you’ve just run, so that the result of your commands will be assigned to the object (you can make this the same object name you’ve been using -overwrite it-, or call it a new name).</p></li>
-<li><p>When you run this command again you should see the (new) object has changed to 194 rows. We can now plot the data again as a histogram. To do this, copy the earlier code for the histogram and edit it as necessary (if you’re using a new object for the filtered data, you’ll need to edit the code to reflect that). .</p></li>
-<li><p>And as you know, we can also look at the distribution as a boxplot, a violin, or a density plot. Feel free to add in your own code for other visualisations you might like to try.</p></li>
-</ol>
-</section>
-<section id="one-sample-t-test" class="level3">
-<h3 class="anchored" data-anchor-id="one-sample-t-test">One-sample t-test</h3>
-<p>We now want to know if the salary estimates are different to the actual average salary in the UK (which is approx. £30,000). Our hypothesis might be that people are inaccurate - they overestimate or underestimate the average UK salary. Let’s test that.</p>
-<ol start="8" type="1">
-<li><p>First, let’s calculate the mean and sd of the column.</p></li>
-<li><p>Now we can compute a t-statistic and check whether this mean is significantly different from the expected mean. We do this with <code>t.test()</code>. Edit the code on this line to conduct a one-sample t-test. You need to provide <strong>the sample of data on which you want to conduct the test</strong>, and the <strong>expected mean under the null hypothesis</strong>. Remember our hypothesis is that people are not accurate. Your calculation of the mean should tell you whether they numerically overestimated or underestimated. But would we expect such a result under the null hypothesis? Run the t-test and <strong>note the p value</strong>. How likely is it that we would see this sample of data (this mean value and the distribution of data - the SD) under the null hypothesis? The p value ranges from 0 to 1. If it is very low - typically we say p &lt; .05 - then we conclude our result is unlikely under the null hypothesis and it is therefore a <em>significant result</em>.</p></li>
-<li><p>What is the critical value of t in the t-distribution table, for this sample size? Degrees of freedom is N - 1.</p></li>
-</ol>
-<p><img src="images/wk7/ttable.png" class="img-fluid"></p>
-</section>
-<section id="practising-filtering" class="level3">
-<h3 class="anchored" data-anchor-id="practising-filtering">Practising filtering</h3>
-<ol start="11" type="1">
-<li>Filtering can also be useful for selecting certain sub-sets of our data. In the script we have given you an example of how we select a sub-set of data based on two conditions from two different columns:</li>
-</ol>
-<p><code>data_set_name %&gt;% filter(home_location_in_UK == "NW" &amp; sibling_order == "oldest")</code></p>
-<p>We have given you a few different columns to look at and to use in practicing your filter commands:</p>
-<p><code>sibling_order</code>: what position in age was the respondent within their siblings <code>home_location</code>: UK / Asia / Europe, etc <code>home_location_in_UK</code>: NW, NE, etc (NA is non-UK residents) <code>attention_check</code>: respondents were asked “click strongly agree to show you are paying attention” - some people failed this!!!</p>
-<p>Complete the following filters. We’ve put in <strong>()</strong> the number of rows you should see in the resulting object</p>
-<ol start="12" type="1">
-<li><p>Just those people who come from the North East (16 rows)</p></li>
-<li><p>Those people who come from Wales and are the middle child within their siblings (2 rows)</p></li>
-<li><p>Those people passed the attention check, are from the UK, and are an only child (21 rows)</p></li>
-<li><p>Those people who are NOT from the North West; you’ll need to use <code>!=</code> (84 rows)</p></li>
-<li><p>Those people who failed the attention check (that is, did not say strongly agree) (14 rows)</p></li>
-<li><p>Those people who are from the South East or (<code>|</code>) the South West (38 rows)</p></li>
-</ol>
-</section>
-<section id="sample-size-size-of-effect-and-the-one-sample-t-test" class="level2">
-<h2 class="anchored" data-anchor-id="sample-size-size-of-effect-and-the-one-sample-t-test">Sample size, size of effect, and the one sample t-test</h2>
-<p>In the lecture this week, Tom used an application to show the process of sampling data. You can access this application at the link below. There are three “parameters” you can change in this:</p>
-<ul>
-<li><p><strong>The true mean of the effect:</strong> Think of this like the bias that was set up in your deck of cards last week. There is some true state out there in the world, and we are going to draw samples from a distribution of data that has a mean that equals this value. If you make this 100, then the true mean is equal to that under the null hypothesis (there is no effect).</p></li>
-<li><p><strong>The standard deviation of the data:</strong> This sets how variable the data are in this population. If the data are more variable, then our samples will produce estimations that are less accurate of the true mean value.</p></li>
-<li><p><strong>The sample size:</strong> How many observations are drawn in the sample. These are represented by the yellow circles in the plot.</p></li>
-</ul>
-<p>Each time you draw a sample the data points are plotted in yellow and the mean of the sample is marked with the red line. The application also runs a one-sample t-test against the expected mean under the null hypothesis, of 100. The null hypothesis is also represented by the static distribution presented in grey, centred on 100.</p>
-<p>Things to try:</p>
-<ol type="1">
-<li><p>Start with a sample size of 10, and a mean of the effect of 110 (SD = 15). How often do you get a significant result (p &lt; .05) when you draw a new sample?</p></li>
-<li><p>Now try changing the mean of the effect to 120. Does this increase or decrease the likelihood of getting significant results? What about changing to 130?</p></li>
-<li><p>Now keep the mean effect constant (say 110), but increase the sample size. Try 5, then 10, 15, and so on. Does this increase or decrease the likelihood of getting significant results?</p></li>
-<li><p>Set the mean of the effect to 100 and the sample size to 10. Keep drawing new samples, noting each time the p value. You will evenutally get a p value of &lt; .05. What type of error is this?</p></li>
-</ol>
-<p><a href="https://ma-rconnect.lancs.ac.uk/one_sample_t" target="_blank"><strong>Click here for the one-sample t-test application</strong></a></p>
-</section>
-<section id="week-7-quiz" class="level2">
-<h2 class="anchored" data-anchor-id="week-7-quiz">Week 7 Quiz</h2>
-<p>You can access a set of quiz questions related to this week <a href="https://ma-rconnect.lancs.ac.uk/PSYC121_2022_Week_7_quiz/" target="_blank">here.</a></p>
+<section id="testing-embedded-presentation" class="level1">
+<h1>Testing embedded presentation</h1>
+<iframe class="slide-deck" src="Presentation/index.html" width="75%" height="700">
+</iframe>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
