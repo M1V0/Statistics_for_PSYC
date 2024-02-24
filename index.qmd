@@ -33,7 +33,9 @@ Welcome to Lancaster University's Department of Psychology **`r date-1`/`r date`
 <div class="container">
   <div class="row" style="display:flex;">
     <div class="col">
+    <a href="https://m1v0.github.io/year_1/">
     <button type="button" class="btn btn-primary btn-landing">Year 1</button>
+    </a>
     </div>
     <div class="col ">
       <button type="button" class="btn btn-primary btn-landing">Year 2</button>
