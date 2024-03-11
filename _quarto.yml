@@ -29,16 +29,12 @@ website:
         file: PSYC121/index.qmd
       - text: And More...
         file: PSYC122/index.qmd
-      - text: Previous Content
-        menu:
-          - Test/CopyOfWeek7.qmd
-          - Test/Week7.qmd
 
   page-footer:
     left: "Website developed by Matthew Ivory"
     right:       
-      - icon: github
-        href: https://github.com/M1V0/Statistics_for_PSYC
+      - text: "Previous Year's Content"
+        href: Previous/index.qmd
 
 
 format:
